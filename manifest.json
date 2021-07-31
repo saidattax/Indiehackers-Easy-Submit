@@ -1,0 +1,13 @@
+{
+    "name": "IH Ctrl Enter",
+    "description": "This extension allows you to submit content using ctrl+enter",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+            "matches": ["*://*.indiehackers.com/*"],
+            "js": ["contentscript.js"]
+        }
+    ]
+}
