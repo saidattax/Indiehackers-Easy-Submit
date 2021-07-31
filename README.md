@@ -1,6 +1,8 @@
 # Indiehackers Easy Submit
 
-This chrome extension allows you to submit a post or comment by hitting Control + Enter.
+This chrome extension allows you to submit a comment/reply by hitting Control + Enter.
+
+Note: Does not work for submitting posts.
 
 ## Installation
 
