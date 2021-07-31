@@ -1,11 +1,7 @@
 console.log("IH Ctrl+Enter Activated!");
 document.onkeydown = function (e) {
     if ((e.ctrlKey || e.metaKey) && e.key == "Enter") {
-        console.log("event");
-
         let t = document.activeElement;
-
-        console.log(t.tagName.toString());
 
         if (t.tagName.toString() === "TEXTAREA") {
             let p = t.parentElement;
