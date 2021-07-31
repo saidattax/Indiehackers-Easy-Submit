@@ -10,3 +10,5 @@ This chrome extension allows you to submit a post or comment by hitting Control 
 4. Go to chrome://extensions
 5. Enable Developer Mode
 6. Drag drop the folder onto the extensions page
+
+Note: Your cursor must be active in a textbox when you hit Control + Enter
